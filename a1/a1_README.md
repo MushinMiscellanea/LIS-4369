@@ -37,8 +37,8 @@ output:
 
 #### Assignment Screenshots:
 
-![Screenshot of a1_tip_calculator running IDLE](/Users/spencerfinkel/repos/lis4369/a1/png//a1_IDLE.png "a1 IDLE")
-![Screenshot of a1_tip_calculator running VScode](/Users/spencerfinkel/desktop/updatedVScode.png "a1 VScode")
+![Screenshot of a1_tip_calculator running IDLE](png/a1_IDLE.png "a1 IDLE")
+![Screenshot of a1_tip_calculator running VScode](png/updatedVScode.png "a1 VScode")
 
 
 
