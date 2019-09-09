@@ -6,7 +6,7 @@
 
 *Course Work:*
 
-1. A1_README.me
+1. [A1_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/a1/a1_README.md)
     - Software Installations
     - Create a1_tip_calculator
     - Screenshots of script
