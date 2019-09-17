@@ -1,12 +1,24 @@
-print('''Miles Per Gallon
+#!/usr/bin/env python3
 
+def words():
+    print('''Miles Per Gallon
 
-''')
-miles = float(input('Enter miles driven: '))
-gallon = float(input('Enter gallons of gas used: '))
+    ''')
 
-mpg = miles/gallon
-mpg = round(mpg,3)
-print()
-print()
-print(f'{round(miles,2)} driven and {round(gallon,2)} = {round(mpg,2)} mpg')
+def calc(miles, gallon):   
+    mpg = miles/gallon
+    mpg = round(mpg,3)
+    print('''
+      ''')
+    print(f'{miles:.2f} driven and {gallon:.2f} = {mpg:.2f} mpg')
+
+def main():
+    words()
+    miles = float(input('Enter miles driven: '))
+    gallon = float(input('Enter gallons of gas used: ')) 
+    calc(miles, gallon)
+    
+
+if __name__ == "__main__":
+    pass
+
