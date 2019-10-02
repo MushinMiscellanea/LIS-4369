@@ -14,9 +14,6 @@ output:
 3. Use an iterator
 4. Questions
 
-#### README.md file should include the following items:
-* Screenshots of a3_paint_estimator in IDLE and VS Code
-
 
 
 

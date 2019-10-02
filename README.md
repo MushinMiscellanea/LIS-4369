@@ -16,8 +16,9 @@
 2. [A2_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/a2/a2_README.md)
     - Payroll Calculator
     - Screenshots of running code
-3. A3_README.md
-    - TBD
+3. [A3_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/a3/a3_README.md)
+    - Paint Estimator
+    - Screenshots of running code
 4. A4_README.md
     - TBD
 5. A5_README.md
