@@ -25,6 +25,7 @@ output:
 #### Assignment Screenshots:
 
 ![Screenshot of P1 running IDLE](/lis4369/p1/png/p1_idle.png "p1 IDLE")
+
 ![Screenshot of P1 running VScode](/lis4369/p1/png/p1_vs.png "p1 VScode")
 
 
