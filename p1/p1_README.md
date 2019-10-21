@@ -24,8 +24,9 @@ output:
 
 #### Assignment Screenshots:
 
-![Screenshot of P1 in IDLE](/lis4369/p1/png/p1_idle.png "IDLE")
-![Screenshot of P1 in VScode](/lis4369/p1/png/p1_vs.png "VScode")
+![Screenshot of P1 in IDLE](png/p1_idle.png "IDLE")
+
+![Screenshot of P1 in VScode](png/p1_vs.png "VScode")
 
 
 
