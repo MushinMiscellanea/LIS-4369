@@ -19,6 +19,10 @@
 3. [A3_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/a3/a3_README.md)
     - Paint Estimator
     - Screenshots of running code
+4. [P1_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/p1/p1_README.md)
+    - Install packages
+    - Retrieve data from remote database
+    - Plot data
 4. A4_README.md
     - TBD
 5. A5_README.md

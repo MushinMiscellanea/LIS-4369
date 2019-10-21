@@ -24,7 +24,7 @@ def data_analysis():
     df = pdr.DataReader('XOM', 'yahoo', start, end) #remote data access
 
 # convert to pandas module from DataReader
-    df1 = pd.DataFrame.from_records(df) #put information into a pandas DataFrame
+    #df1 = pd.DataFrame.from_records(df) #put information into a pandas DataFrame
     print("Print number of records")
     print(df.shape[0])
     print()
