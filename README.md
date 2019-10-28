@@ -23,8 +23,11 @@
     - Install packages
     - Retrieve data from remote database
     - Plot data
-4. A4_README.md
-    - TBD
+4. [A4_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/a4/a4_README.md) 
+    - Install and import modules
+    - use Pandas perform statements on DataFrame to access data
+    - Slice DataFrame
+    - Plot given information
 5. A5_README.md
     - TBD
 6. A6_README.md
