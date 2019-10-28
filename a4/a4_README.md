@@ -24,8 +24,9 @@ output:
 
 #### Assignment Screenshots:
 
-![Screenshot of Assignment 4 running TMUX](/png/tmux.png "a4 TMUX")
-![Screenshot of Assignment 4 running Pycharm](/png/pycharm.png "a4 Pycharm")
+![Screenshot of Assignment 4 running TMUX](/a4/png/tmux.png "a4 TMUX")
+
+![Screenshot of Assignment 4 running Pycharm](/a4/png/pycharm.png "a4 Pycharm")
 
 
 
