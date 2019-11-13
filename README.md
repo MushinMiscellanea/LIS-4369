@@ -28,8 +28,11 @@
     - use Pandas perform statements on DataFrame to access data
     - Slice DataFrame
     - Plot given information
-5. A5_README.md
-    - TBD
+5. [A5_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/a5/a5_README.md) 
+    - Comprehensive R tutorial
+    - Code using imported csv and R data()
+    - Expiriment with charts/graphs/colors/structure
+    - compare with python
 6. A6_README.md
     - TBD
 7. A7_README.md
