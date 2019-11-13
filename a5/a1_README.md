@@ -8,44 +8,34 @@ output:
 
 ## Spencer Finkel
 
-### **Assignment 1 Requirements:** 
-1. Distributed Version Control with Git and Bitbucket
-2. Development Installations 
+### **Assignment 5 Requirements:** 
+1. Complete the Rforbeginners tutorial
+    1. Note all functions/commands from tutorial
+    2. Take screenshots of Rstudio and accompanying charts
+2. Complete a5.R 
+    1. Screenshots of environement
+    2. Screenshots of accompanying charts
 3. Questions
 4. Bitbucket repo links
-    1. Tip calculator
-    2. bitbucketstationlocations
+   
 
 #### README.md file should include the following items:
-* Screenshots of a1_tip_calculator in IDLE and VS Code
-* git commands with short descriptions
+* Introduction to R photos/code
+* a5 photos/code
 
 
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
-
-1. git init - creates a new local directory
-2. git status - lists the status of staged changes
-3. git add - adds a file to staging 
-4. git commit - saves changes to local repository
-5. git push - pushes changes to remote repository
-6. git pull - copies changes to local repository
-7. git checkout - switches branch
 
 #### Assignment Screenshots:
 
-![Screenshot of a1_tip_calculator running IDLE](/Users/spencerfinkel/desktop/a1_IDLE.png "a1 IDLE")
-![Screenshot of a1_tip_calculator running VScode](/Users/spencerfinkel/desktop/a1_vscode.png "a1 VScode")
+![Screenshot of a5](png/a5_screenshot.png "a5 RStudio")
 
+![Screenshot of chart](png/plot.png "a5 chart")
+
+![Screenshot of chart](png/horizontal_plot.png "a5 chart")
 
 
 #### Bitbucket Repository Links:
 
-*Bitbucket Tutorial - Station Locations:*
-[Bitbucket Station Locations Link](https://bitbucket.org/stolidMiscellanea/bitbucketstationlocation/src/master/ "Bitbucket Station Locations")
 
 *LIS4369 Repository:*
 [Repository Link](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/)

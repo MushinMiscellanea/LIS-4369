@@ -47,8 +47,5 @@ def main():
     requirements()
     print_type()
 
-main()
-
-
-
-
+if __name__ == "__main__":
+    pass

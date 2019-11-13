@@ -1,0 +1,60 @@
+R commands
+
+- setwd("directory") sets the directory to work out of
+- install.packages("package name") is how to intsall a package
+- insalled.packages() to check what packages are already installed
+- library("package name") is how to load a package into memory to be used
+- ?packagename is the help function
+- exampl(packagename) gives examples of how to use a given package
+- help.search("search term") to search the R documentation
+- data() to load sample  data into console to test
+- Type name of dataset into console to get printout of entire dataset
+- 	<- is the R assignment operator
+- Assinging a CSV file or any other type of file (must declare seperator as argument) to a variable creates a dataframe
+	e.g. mydata <- read.csv("filename.txt", header=FALSE) 
+	- this makes the first row in the file data, not a header
+	e.g. mydata <- read.table("filename", sep"\t", header=TRUE)
+	- reads a file and determines the seperator as a tab
+- to add string data without it being interpreted as statistical use argument
+  stringsAsFactors=FALSE
+e.g. mydata <- read.table("filename.txt", sep="|", header=TRUE, stringsAsFactors=FALSE)
+- cpdata <- read.table(pipe("pbpaste"), sep=",", header = TRUE) this command will assign data coppied using ccmd + c
+- mydata <- read.csv("URL.com") is how to read data from the web
+- R format is maximum one row header with each row having one set of data
+- quantmod package gives statistical data on stock prices
+- to  remove data from workspace use rm(x) function
+- save.image() saves the entire workspace as .RData by default
+- individual objects can be saved using save(variablename, file="filename.ex")
+	- load variable "filename.ex" using load("filename.ex")
+- head(variable) to see first 6 rows of dataframe
+- str() function returns metadata of the vector/dataframe etc.
+- summary() function gives statistical analysis (diamonds)  of givin data
+- describe() is a method of the psych module. this gives more detailed analysis including S.D.
+- use ?median (or any other function name) to see if na.rm=TRUE is a needed argument
+- choose() is permutation nCr
+	e.g. how many groups of 4 from 15 = 15!/4!*11! = choose(15,4)
+- c() is combine function. use this with combn() to find combinations of selected data
+	e.g. combn(c("john", "will", "mike", "Willis"),2)
+- to slice use bracket notation mydata[rows,columns], mydata[,2:4] all rows and columns 2 through 4
+mydata[,c(2,4)] use c() function to return only the specified rows 2 and 4.
+mydata[mydata$age>20,] this returns all rows where column age is greater that 20
+can use column location or name mydata[,c("age","weight")]n
+- R INDEXES FROM 1
+- R is always case-sensitive
+- negative idexing will not get you the last item instead it will give you everything but that index (-v)
+- chain (pipe) functions together using %.%
+	e.g. mydata %.% 1function() %.% 2funtion() %.% 3function()
+
+- table() function tally's up counts by factor
+- the easiest plot statement is plot(data$column, data$column,..., xlab = "Description of x axis, ylab = "description of y axis", main = "main description", las=1) (las=1 rotates yy axis lables)
+- ?par gives information about plot parameters
+- ggplot2 is a good package for many types of visualizations
+	- ggplot2 quick plot is qplot(x, y, data=dataname) -- creates a scatter plot
+- ggplot() is more robust plot method
+- geom() functions of ggplot2 give aethstetic information about plot
+- performing a mathematical operation on each value in an array does not call for a loop, instead make a new array
+	e.g. newarray <- array * .01      This multiplies each value in the array by .01 to get a percentage
+-c() function is needed to create an array and it assumes each value is of the same datatyype
+
+- sqldf is a a package that lets you run sql statements on data in R
+
