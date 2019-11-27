@@ -33,7 +33,7 @@
     - Code using imported csv and R data()
     - Expiriment with charts/graphs/colors/structure
     - compare with python
-6. A6_README.md
-    - TBD
-7. A7_README.md
-    - TBD
+6. [P2_README.md](https://bitbucket.org/stolidMiscellanea/lis4369/src/master/p2/p2_README.md)
+    - Manipulated mtcar dataframe
+    - Plotted mtcar data using ggplot2
+    - used R functions and imported modules to work with dataframe
